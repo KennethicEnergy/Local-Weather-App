@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Weather</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" async></script>
+</head>
+<body>
+  <div class="weather-wrapper">
+    <div class="city-and-country">
+      <h1 class="city"></h1>
+      <p class="country"></p>
+    </div>
+    <div class="temp-and-weather">
+      <img class="weather-icon" src="" alt="">
+      <h1 class="temperature"></h1>
+    </div>
+    <div class="toggle-temperature">
+      <h1>°C|°F </h1>
+      <label class="switch" onclick="toggleTemperature()">
+        <input type="checkbox" name="temperature" id="temp-toggle">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    
+    <hr>
+    <p class="nearby-locations">Nearby Locations</p>
+  </div>
+</body>
+</html>
